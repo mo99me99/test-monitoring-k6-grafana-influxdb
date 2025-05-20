@@ -10,7 +10,7 @@ This will start all services (influxdb, grafana, chronograf, k6, and typescript-
 2. Run k6 Load Test Using Docker
 To execute your k6 test script, run:
 
-docker-compose run --rm k6 run /scripts/stress-test.js
+docker-compose run --rm k6 run /scripts/1-smoke-test.js
 
 
 
